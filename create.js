@@ -3,7 +3,7 @@ const fs = require("fs-extra")
 const Inquirer = require("inquirer")
 const chalk = require("chalk")
 const {loading} = require("./utils")
-const Creator = require("./Creator")
+const Creator = require("./creator")
 
 module.exports = async function (projectName, options) {
   // get current working directory
