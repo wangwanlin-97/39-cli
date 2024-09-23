@@ -1,0 +1,31 @@
+{
+  "name": "39-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "39-cli": "bin/entry"
+  },
+  "keywords": [
+    "template",
+    "react-template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangwanlin-97/39-cli.git"
+  },
+  "author": "wangwanlin-97",
+  "license": "MIT",
+  "description": "A cli to fetch git repositories as a template to create a project",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "chalk": "^4.0.0",
+    "commander": "^9.0.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.1",
+    "ora": "^5.0.0"
+  }
+}
